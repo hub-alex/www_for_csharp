@@ -9,3 +9,20 @@ font-size: 20px;
 text-align: center;
 padding: 0px
 }
+
+ol{width: 500px;
+    background-color: #eeeeee;
+    padding: 10px;
+    padding-left: 30px;}
+
+/* table{
+border-width: 1px;
+border-color: black;    } */
+th {
+    width: 200px; 
+    background-color: #eeeeee;
+    padding: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}

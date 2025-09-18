@@ -27,5 +27,48 @@ th {
     border-width: 1px;
 }
 img{
-width:200px
+width:100%
+}
+
+td {
+    width: 30px;
+    border-color: white;
+    border-width: 0.5px;
+    height: 30px;
+    text-align: center;
+    
+}
+
+.gray td{
+    background-color:gainsboro;
+}
+
+.row-odd td:nth-child(odd){
+    background: lightcoral;
+}
+.row-odd td:nth-child(even){
+    background: lightgreen;
+}
+
+.row-odd td:first-child {
+  background-color: gainsboro;
+}
+
+.row-odd td:last-child {
+  background-color: gainsboro;
+}
+
+.row-even td:nth-child(even){
+    background: lightcoral;
+}
+.row-even td:nth-child(odd){
+    background: lightgreen;
+}
+
+.row-even td:first-child {
+  background-color: gainsboro;
+}
+
+.row-even td:last-child {
+  background-color: gainsboro;
 }
